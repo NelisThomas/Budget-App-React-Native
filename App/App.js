@@ -1,12 +1,12 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import BudgetApp from './components/wholes/BudgetApp';
+import BudgetApp from "./components/wholes/BudgetApp";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <BudgetApp/>
+      <BudgetApp />
     </View>
   );
 }

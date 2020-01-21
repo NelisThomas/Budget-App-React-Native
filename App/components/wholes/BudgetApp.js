@@ -1,20 +1,20 @@
-import React from 'react';
-import { View } from 'react-native';
+import React, { useState } from "react";
+import { StyleSheet, View, Text } from "react-native";
 
-import GraphComponent from '../partials/GraphComponent';
-import TransactionList from '../partials/TransactionList';
-import ModalButton from '../partials/ModalButton';
-import Modal from '../partials/Modal';
+import GraphComponent from "../partials/GraphComponent";
+import TransactionList from "../partials/TransactionList";
+import ModalButton from "../partials/ModalButton";
 
 const BudgetApp = () => {
-    return (
-        <View>
-            <GraphComponent/>
-            <TransactionList/>
-            <ModalButton/>
-            <Modal/>
-        </View>
-    )
-}
+  return (
+    <View style={styles.container}>
+      <ModalButton />
+      <TransactionList />
+    </View>
+  );
+};
 
-export default BudgetApp
+const styles = StyleSheet.create({
+  container: {}
+});
+export default BudgetApp;
