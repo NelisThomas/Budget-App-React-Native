@@ -19,7 +19,9 @@ const BudgetApp = () => {
 
 const styles = StyleSheet.create({
   container: {
-      flex: 1
+      flex: 1,
+      backgroundColor: '#2b4369',
+      alignItems: 'center'
   }
 });
 export default BudgetApp;
