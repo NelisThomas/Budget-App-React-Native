@@ -7,6 +7,7 @@ const BudgetApp = () => {
             <GraphComponent/>
             <ExpensesList/>
             <AddExpenseButton/>
+            <ExpensesModal/>
         </View>
     )
 }
