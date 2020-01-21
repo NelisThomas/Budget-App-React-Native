@@ -1,13 +1,18 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
+
+// import {GraphComponent, TransactionList, ModalButton, Modal} from '../partials';
 
 const BudgetApp = () => {
     return (
         <View>
-            <GraphComponent/>
-            <ExpensesList/>
-            <AddExpenseButton/>
-            <ExpensesModal/>
+            BudgetApp
+            {/* <GraphComponent/>
+            <TransactionList/>
+            <ModalButton/>
+            <Modal/> */}
         </View>
     )
 }
+
+export default BudgetApp
