@@ -1,16 +1,18 @@
 import React from 'react';
 import { View } from 'react-native';
 
-// import {GraphComponent, TransactionList, ModalButton, Modal} from '../partials';
+import GraphComponent from '../partials/GraphComponent';
+import TransactionList from '../partials/TransactionList';
+import ModalButton from '../partials/ModalButton';
+import Modal from '../partials/Modal';
 
 const BudgetApp = () => {
     return (
         <View>
-            BudgetApp
-            {/* <GraphComponent/>
+            <GraphComponent/>
             <TransactionList/>
             <ModalButton/>
-            <Modal/> */}
+            <Modal/>
         </View>
     )
 }

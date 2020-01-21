@@ -1,11 +1,11 @@
-import react from 'react';
+import React from 'react';
 import {View, Text} from 'react-native';
 
-const GraphComponent = () => {
+const TransactionList = () => {
     return (
         <View>
             <Text>
-                GraphComponent
+                TransactionList
             </Text>
         </View>
     )
