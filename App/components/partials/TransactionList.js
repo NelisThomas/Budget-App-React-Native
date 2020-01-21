@@ -11,4 +11,4 @@ const TransactionList = () => {
     )
 }
 
-export default GraphComponent
+export default TransactionList
