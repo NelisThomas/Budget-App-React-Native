@@ -3,6 +3,14 @@ import { Modal, Text, View, StyleSheet, TouchableWithoutFeedback, TextInput } fr
 import { Icon } from "react-native-elements";
 
 const ModalScreen = ({closeModal}) => {
+
+    const [state,setState] = useState({
+        value: 0,
+        incOrDec: null,
+        type: null,
+        time: null
+    });
+
     return (
         <View style={styles.container}>
             <TouchableWithoutFeedback
