@@ -1,22 +1,20 @@
 import React, { useState } from "react";
-import { View, Text } from "react-native";
+import { View, TouchableWithoutFeedback, Text } from "react-native";
 import { Icon } from "react-native-elements";
 
-const ModalButton = () => {
-  const [isVisible, setIsVisible] = useState(false);
+const ModalButton = ({openModal}) => {
 
   return (
-    <View>
-      <View>
-        <Icon
-          reverse
-          name="ios-add"
-          type="ionicon"
-          color="green"
-          onPress={() => setIsVisible(!isVisible)}
-        />
-      </View>
-    </View>
+    <TouchableWithoutFeedback
+      onPress={() => openModal()}
+    >
+      <Icon
+        reverse
+        name="ios-add"
+        type="ionicon"
+        color="green"
+      />
+    </TouchableWithoutFeedback>
   );
 };
 
